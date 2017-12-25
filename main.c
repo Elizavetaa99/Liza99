@@ -39,7 +39,6 @@ int main(){
         str[dinamic_size+size] = c;  // сохранить символ в памяти
 
         size++;    // увеличить размер 
-        printf("c == %c; size == %i; din == %i\n",c,size,dinamic_size+size);
 
         if (c == '5'){   // если это пять
             fives++; // увеличивать количество пятёрок
